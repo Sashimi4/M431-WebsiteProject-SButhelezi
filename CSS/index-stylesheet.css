@@ -8,28 +8,54 @@ body{
     color: #FDF6F6;
 }
 
+
+/*
 @media only screen and (max-width: 768px){
     [class*="col-"]{
         width: 100%;
     }
 }
+*/
+
 
 /*
 /Navbar CSS Styling
 */
 .navbar{
-    z-index: 1;
+    
 }
 
-.navbar-banner{
-    z-index: -10;
+.navbar .navbar-row{
+    height: 10em;
+    width: 100%;
 }
+
 .nav-link{
     position: relative;
     color: black;
-    margin-top: 50px;
+    margin-top: 20px;
+    justify-content: center;
+    margin-left: 1em;
+    font-size: 2em;
 }
 
 .nav-link:hover{
     color: #C01313;
+}
+/*Navbar Ending*/
+
+/*Main Content*/
+.row-description{
+    padding-top: 1em;
+    margin-top: 5em;
+}
+
+
+/*
+/Footer CSS Styling
+*/
+
+.copyright-text{
+    position: relative;
+    justify-content: center;
 }
