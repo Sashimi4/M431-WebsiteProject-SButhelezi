@@ -1,7 +1,35 @@
 h1{
-    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    
+    font-family:'Raleway';
+
 }
 
 body{
-    background-image: url(https://images.pexels.com/photos/114820/pexels-photo-114820.jpeg?auto=compress&cs=tinysrgb&dpr=3&h=750&w=1260);
+    color: #FDF6F6;
+}
+
+@media only screen and (max-width: 768px){
+    [class*="col-"]{
+        width: 100%;
+    }
+}
+
+/*
+/Navbar CSS Styling
+*/
+.navbar{
+    z-index: 1;
+}
+
+.navbar-banner{
+    z-index: -10;
+}
+.nav-link{
+    position: relative;
+    color: black;
+    margin-top: 50px;
+}
+
+.nav-link:hover{
+    color: #C01313;
 }
