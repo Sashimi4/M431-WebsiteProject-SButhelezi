@@ -22,25 +22,38 @@ body{
 /Navbar CSS Styling
 */
 .navbar{
-    
+    background-image: url(https://images.pexels.com/photos/1374557/pexels-photo-1374557.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260);
+    background-blend-mode: 0.4;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 18em;
 }
 
 .navbar .navbar-row{
-    height: 10em;
+    height: 8em;
     width: 100%;
+    background-color:rgba(156, 153, 153, 0.6);
 }
 
 .nav-link{
     position: relative;
-    color: black;
+    color: #FFF;
     margin-top: 20px;
-    justify-content: center;
+    text-align: left;
     margin-left: 1em;
-    font-size: 2em;
+    font-size: 1.8em;
+    font-family: 'Raleway';
 }
 
 .nav-link:hover{
     color: #C01313;
+}
+
+.navbar-split{
+    height:5em;
+    background-color: rgba(156, 153, 153,0.5);
+    background-size: cover;
 }
 /*Navbar Ending*/
 
@@ -58,4 +71,5 @@ body{
 .copyright-text{
     position: relative;
     justify-content: center;
+    text-align: center;
 }
