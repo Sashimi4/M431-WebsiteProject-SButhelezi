@@ -109,7 +109,6 @@ html{
 /*
 /Footer CSS Styling
 */
-
 .copyright-text{
     position: relative;
     text-align: center;
@@ -119,6 +118,7 @@ html{
 .footer-content{
     background-color: black;
     color: #FFF;
+    font-family: 'Raleway';
 }
 
 .footer-information{
@@ -129,22 +129,82 @@ html{
 
 .contact-block{
     margin-bottom: 4em;
+    border-right: thin solid #FFF;
 }
 
 .aboutus-block{
     margin-bottom: 4em;
+    border-right: thin solid #FFF;
 }
 
 .rights-block{
     margin-bottom: 4em;
 }
 
+.footer-block-title{
+    margin-left: 2em;
+    margin-bottom: 1em;
+}
+
+.footer-block-title:hover{
+    opacity: 0.7;
+}
+
+.footer-para{
+    margin-left: 15px;
+    margin-right: 5px;
+}
+
 .footer-links{
     color: #FFF;
-    padding-left: 2em;
+    padding-left: 1em;
     margin: 1em;
 }
 
 .footer-links:hover{
     color: #E5C58F;
 }
+
+/*Social Icons*/
+.social-icons{
+    position: relative;
+    text-align: center;
+    margin-bottom: 2em;
+}
+.fa {
+    padding: 20px;
+    font-size: 30px;
+    width: 30px;
+    height: 30px;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 2px;
+    border-radius: 10%;
+  }
+  
+  .fa:hover {
+    opacity: 0.7;
+  }
+  
+  .fa-facebook {
+    background: #FFF;
+    color: #000;
+  }
+  .fa-facebook::before{
+      content: "\f09a";
+  }
+  
+  .fa-twitter {
+    background: #FFF;
+    color: #000;
+  }
+
+  .fa-linkedin {
+    background: #FFF;
+    color: #000;
+  }
+
+  .fa-pinterest {
+    background: #FFF;
+    color: #000;
+  }
