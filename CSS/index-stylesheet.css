@@ -59,6 +59,10 @@ body{
 
 /*Main Content*/
 
+html{
+    overflow-x: hidden;
+}
+
 .title-header{
     font-size: 5em;
     margin-bottom: 2em;
@@ -66,8 +70,6 @@ body{
     text-align: center;
     color: #E5C58F;
 }
-
-
 
 .row-description{
     padding-top: 1em;
@@ -111,12 +113,38 @@ body{
 .copyright-text{
     position: relative;
     text-align: center;
-    color: #FFF;
     padding-bottom: 4em;
 }
 
 .footer-content{
     background-color: black;
+    color: #FFF;
 }
 
+.footer-information{
+    position: relative;
+    margin-bottom: 20px;
+    padding-top: 35px;
+}
 
+.contact-block{
+    margin-bottom: 4em;
+}
+
+.aboutus-block{
+    margin-bottom: 4em;
+}
+
+.rights-block{
+    margin-bottom: 4em;
+}
+
+.footer-links{
+    color: #FFF;
+    padding-left: 2em;
+    margin: 1em;
+}
+
+.footer-links:hover{
+    color: #E5C58F;
+}
