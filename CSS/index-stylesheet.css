@@ -3,14 +3,6 @@ h1{
     font-family:'Raleway';
 
 }
-/*
-@media only screen and (max-width: 768px){
-    [class*="col-"]{
-        width: 100%;
-    }
-}
-*/
-
 
 /*
 /Navbar CSS Styling
@@ -19,8 +11,14 @@ h1{
     background-color: #000;
 }
 
-.navbar-logo{
-    
+.navbar-brand{
+    font-size: 3em !important;
+    color: #E5C58F;
+
+}
+
+.navbar-pages{
+    text-align: right !important;
 }
 
 .navbar .navbar-row{
@@ -32,6 +30,7 @@ h1{
 .nav-link{
     font-family: 'Raleway';
     color: #FFF;
+    font-size: 2em;
 }
 
 .navbar-toggler{
@@ -166,7 +165,11 @@ html{
 }
 
 .footer-links:hover{
-    color: #E5C58F;
+    color: #000;
+}
+
+.footer-list:hover{
+    background-color: #FFF;
 }
 
 /*Social Icons*/
