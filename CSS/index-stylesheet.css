@@ -3,12 +3,6 @@ h1{
     font-family:'Raleway';
 
 }
-
-body{
-    color: #FDF6F6;
-}
-
-
 /*
 @media only screen and (max-width: 768px){
     [class*="col-"]{
@@ -22,12 +16,11 @@ body{
 /Navbar CSS Styling
 */
 .navbar{
-    background-image: url(https://images.pexels.com/photos/1374557/pexels-photo-1374557.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260);
-    background-blend-mode: 0.4;
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-    height: 18em;
+    background-color: #000;
+}
+
+.navbar-logo{
+    
 }
 
 .navbar .navbar-row{
@@ -37,17 +30,17 @@ body{
 }
 
 .nav-link{
-    position: relative;
-    color: #FFF;
-    margin-top: 20px;
-    text-align: left;
-    margin-left: 1em;
-    font-size: 1.8em;
     font-family: 'Raleway';
+    color: #FFF;
+}
+
+.navbar-toggler{
+    background-color: #000;
+    color: #FFF;
 }
 
 .nav-link:hover{
-    color: #C01313;
+    color: #FFF;
 }
 
 .navbar-split{
@@ -55,6 +48,13 @@ body{
     background-color: rgba(156, 153, 153,0.5);
     background-size: cover;
 }
+
+.active{
+    color: #FFF;
+    opacity: 0.5;
+}
+
+
 /*Navbar Ending*/
 
 /*Main Content*/
@@ -121,6 +121,10 @@ html{
     font-family: 'Raleway';
 }
 
+.footer-list{
+    border: thin solid #FFF;
+}
+
 .footer-information{
     position: relative;
     margin-bottom: 20px;
@@ -166,6 +170,7 @@ html{
 }
 
 /*Social Icons*/
+
 .social-icons{
     position: relative;
     text-align: center;
@@ -183,7 +188,9 @@ html{
   }
   
   .fa:hover {
-    opacity: 0.7;
+    border: thin solid #FFF;
+    background: #000;
+    color: #E5C58F;
   }
   
   .fa-facebook {
@@ -207,4 +214,21 @@ html{
   .fa-pinterest {
     background: #FFF;
     color: #000;
+  }
+
+/*Mobile View*/
+
+  @media screen and (max-width: 400px){
+      /*footer*/
+    div.contact-block{
+        border-bottom: thin solid #FFF;
+    }
+
+    div.aboutus-block{
+        border-bottom: thin solid #FFF;
+    }
+
+    .footer-list{
+        border: thin solid #000;
+    }
   }
