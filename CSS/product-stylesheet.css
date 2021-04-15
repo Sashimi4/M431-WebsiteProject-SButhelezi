@@ -4,6 +4,7 @@ h1{
 
 }
 
+
 /*
 /Navbar CSS Styling
 */
@@ -76,42 +77,42 @@ h1{
 
 /*Navbar Ending*/
 
+
+
+
+
+
+
+
+
+
 /*Main Content*/
 
-html{
-    overflow-x: hidden;
+
+
+
+.gallery-row{
+    background-color: #D39A62;
 }
 
-.title-header{
-    font-size: 5em;
-    margin-bottom: 2em;
-    padding-left: 25px;
-    text-align: center;
-    color: #E5C58F;
-}
-
-.row-description{
-    padding-top: 1em;
-    margin-top: 5em;
-}
-
-.firsttextbody{
-    background-color: #052D37;
-}
-
-.firsttext-paragraph{
-    color: #FFF;
-    font-family: 'Raleway';
-    font-size: 2em;
-    padding-bottom: 5em;
-    text-align: center;
-    margin-bottom: 0px;
+#gallery-image-1{
+    
 }
 
 
 
 
 
+
+
+
+
+
+
+
+
+
+/*Main Content End*/
 
 
 
