@@ -1,7 +1,10 @@
 h1{
-    
-    font-family:'Raleway';
 
+    font-family:'Raleway';
+}
+
+html{
+    overflow-x: hidden;
 }
 
 
@@ -96,7 +99,7 @@ h1{
 }
 
 #gallery-image-1{
-    
+
 }
 
 
