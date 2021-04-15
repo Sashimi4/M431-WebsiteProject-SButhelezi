@@ -27,10 +27,10 @@ h1{
     background-color:rgba(156, 153, 153, 0.6);
 }
 
-.nav-link{
-    font-family: 'Raleway';
+.nav-hamburger{
     color: #FFF;
     font-size: 2em;
+    text-align: center;
 }
 
 .navbar-toggler{
@@ -38,8 +38,24 @@ h1{
     color: #FFF;
 }
 
-.nav-link:hover{
+.navbar-expand-lg{
+    padding-left: 3em;
+}
+
+.navbar-expand-md{
+
+}
+
+.nav-link{
+    font-family: 'Raleway';
     color: #FFF;
+    font-size: 2em;
+    padding-right: 2em;
+}
+
+.nav-link:hover{
+    color: #E5C58F;
+
 }
 
 .navbar-split{
@@ -79,12 +95,9 @@ html{
     background-color: #052D37;
 }
 
-.firstbodytext{
+.firsttext-paragraph{
     color: #FFF;
     font-family: 'Raleway';
-}
-
-.firsttext-paragraph{
     font-size: 2em;
     padding-bottom: 5em;
     text-align: center;
