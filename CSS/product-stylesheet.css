@@ -94,17 +94,49 @@ html{
 
 
 
+
+.content-wrapper{
+    text-align: center;
+    padding-top: 30px;
+    margin-bottom: 10px;
+}
+
 .gallery-row{
-    background-color: #D39A62;
+    max-height: 15em;
+    font-family: 'Raleway';
 }
 
-#gallery-image-1{
-
+#desc-1{
+    background-color: #4A2C75;
+    transition: transform .2s;
 }
 
+#desc-1 a{
+    color: #FFF;
+    text-decoration: none;
+}
 
+#desc-2{
+    background-color: #FEF5A2;
+    transition: transform .2s;
+}
 
+#desc-2 a{
+    color: #000;
+    text-decoration: none;
+}
 
+.hoverable:hover{
+    -ms-transform: scale(1.2);
+    -webkit-transform: scale(1.2);
+    transform:scale(1.2);
+    z-index: 100;
+}
+
+.img-block{
+    background-image: url(https://images.pexels.com/photos/1653090/pexels-photo-1653090.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260);
+    background-size: cover;
+}
 
 
 
@@ -187,6 +219,7 @@ html{
 
 .footer-links:hover{
     color: #000;
+    text-decoration: none;
 }
 
 .footer-list:hover{
@@ -215,6 +248,7 @@ html{
     border: thin solid #FFF;
     background: #000;
     color: #E5C58F;
+    text-decoration: none;
   }
   
   .fa-facebook {
@@ -254,5 +288,19 @@ html{
 
     .footer-list{
         border: thin solid #000;
+    }
+
+    html{
+        overflow-x: hidden;
+    }
+
+    /*Desktop View*/
+      
+    @media screen and (max-width: 1350px) {
+        .gallery-row{
+            max-height: 55em !important;
+            font-family: 'Raleway';
+        }
+
     }
   }
