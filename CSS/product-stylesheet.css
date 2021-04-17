@@ -107,7 +107,7 @@ html{
 }
 
 #desc-1{
-    background-color: #4A2C75;
+    background-color: #61104D;
     transition: transform .2s;
 }
 
@@ -175,6 +175,7 @@ html{
 
 .footer-list{
     border: thin solid #FFF;
+    width: 14em;
 }
 
 .footer-information{
