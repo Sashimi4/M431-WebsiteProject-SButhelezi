@@ -1,0 +1,81 @@
+h1{
+
+    font-family:'Raleway';
+}
+
+html{
+    overflow-x: hidden;
+}
+
+
+/*
+/Navbar CSS Styling
+*/
+.navbar{
+    background-color: #000;
+}
+
+.navbar-brand{
+    font-size: 3em !important;
+    color: #E5C58F;
+}
+
+.navbar-brand:hover{
+    color: #000;
+    text-shadow: -1px 0 #FFF, 0 1px #FFF, 1px 0 #FFF, 0 -1px #FFF;
+}
+
+.navbar-pages{
+    text-align: right !important;
+}
+
+.navbar .navbar-row{
+    height: 8em;
+    width: 100%;
+    background-color:rgba(156, 153, 153, 0.6);
+}
+
+.nav-hamburger{
+    color: #FFF;
+    font-size: 2em;
+    text-align: center;
+}
+
+.navbar-toggler{
+    background-color: #000;
+    color: #FFF;
+}
+
+.navbar-expand-lg{
+    padding-left: 3em;
+}
+
+.navbar-expand-md{
+
+}
+
+.nav-link{
+    font-family: 'Raleway';
+    color: #FFF;
+    font-size: 2em;
+    padding-right: 2em;
+}
+
+.nav-link:hover{
+    color: #E5C58F;
+
+}
+
+.navbar-split{
+    height:5em;
+    background-color: rgba(156, 153, 153,0.5);
+    background-size: cover;
+}
+
+.active{
+    color: #FFF;
+    opacity: 0.5;
+}
+
+
+/*Navbar Ending*/
