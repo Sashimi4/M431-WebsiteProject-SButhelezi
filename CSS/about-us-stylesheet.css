@@ -79,3 +79,162 @@ html{
 
 
 /*Navbar Ending*/
+
+/*
+/Main Content
+*/
+
+
+
+
+
+
+
+
+/*
+/Footer CSS Styling
+*/
+.copyright-text{
+    position: relative;
+    text-align: center;
+    padding-bottom: 4em;
+}
+
+.footer-content{
+    background-color: black;
+    color: #FFF;
+    font-family: 'Raleway';
+}
+
+.footer-list{
+    border: thin solid #FFF;
+    width: 14em;
+}
+
+.footer-information{
+    position: relative;
+    margin-bottom: 20px;
+    padding-top: 35px;
+}
+
+.contact-block{
+    margin-bottom: 4em;
+    border-right: thin solid #FFF;
+}
+
+.aboutus-block{
+    margin-bottom: 4em;
+    border-right: thin solid #FFF;
+}
+
+.rights-block{
+    margin-bottom: 4em;
+}
+
+.footer-block-title{
+    margin-left: 2em;
+    margin-bottom: 1em;
+}
+
+.footer-block-title:hover{
+    opacity: 0.7;
+}
+
+.footer-para{
+    margin-left: 15px;
+    margin-right: 5px;
+}
+
+.footer-links{
+    color: #FFF;
+    padding-left: 1em;
+    margin: 1em;
+}
+
+.footer-links:hover{
+    color: #000;
+    text-decoration: none;
+}
+
+.footer-list:hover{
+    background-color: #FFF;
+}
+
+/*Social Icons*/
+
+.social-icons{
+    position: relative;
+    text-align: center;
+    margin-bottom: 2em;
+}
+.fa {
+    padding: 20px;
+    font-size: 30px;
+    width: 30px;
+    height: 30px;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 2px;
+    border-radius: 10%;
+  }
+  
+  .fa:hover {
+    border: thin solid #FFF;
+    background: #000;
+    color: #E5C58F;
+    text-decoration: none;
+  }
+  
+  .fa-facebook {
+    background: #FFF;
+    color: #000;
+  }
+  .fa-facebook::before{
+      content: "\f09a";
+  }
+  
+  .fa-twitter {
+    background: #FFF;
+    color: #000;
+  }
+
+  .fa-linkedin {
+    background: #FFF;
+    color: #000;
+  }
+
+  .fa-pinterest {
+    background: #FFF;
+    color: #000;
+  }
+
+/*Mobile View*/
+
+  @media screen and (max-width: 400px){
+      /*footer*/
+    div.contact-block{
+        border-bottom: thin solid #FFF;
+    }
+
+    div.aboutus-block{
+        border-bottom: thin solid #FFF;
+    }
+
+    .footer-list{
+        border: thin solid #000;
+    }
+
+    html{
+        overflow-x: hidden;
+    }
+  }
+    /*Desktop View*/
+      
+    @media screen and (max-width: 1350px) {
+        .gallery-row{
+            max-height: 55em !important;
+            font-family: 'Raleway';
+        }
+
+    }
+  
