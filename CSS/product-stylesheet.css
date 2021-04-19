@@ -106,25 +106,38 @@ html{
     font-family: 'Raleway';
 }
 
-#desc-1{
-    background-color: #61104D;
+.img-block{
+    padding-right: 0px;
+    padding-left: 0px;
+}
+
+.desc-img{
+    max-width: 100%;
+    max-height: 100%;
+    position: relative;
+}
+
+#desc-black{
+    background-color: #000;
     transition: transform .2s;
 }
 
-#desc-1 a{
+#desc-black a{
     color: #FFF;
     text-decoration: none;
 }
 
-#desc-2{
-    background-color: #FEF5A2;
+#desc-white{
+    background-color: #FFF;
     transition: transform .2s;
+    border: thick solid #000;
 }
 
-#desc-2 a{
+#desc-white a{
     color: #000;
     text-decoration: none;
 }
+
 
 .hoverable:hover{
     -ms-transform: scale(1.2);
@@ -133,10 +146,6 @@ html{
     z-index: 100;
 }
 
-.img-block{
-    background-image: url(https://images.pexels.com/photos/1653090/pexels-photo-1653090.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260);
-    background-size: cover;
-}
 
 
 
